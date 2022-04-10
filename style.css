@@ -1,0 +1,19 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.placeholder {
+  position: absolute;
+  height: 300vh;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0.125em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 2px white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 20vw;
+}
